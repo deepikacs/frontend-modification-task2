@@ -7,22 +7,22 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-  <link rel="stylesheet" type="text/css" href="./css/index1.css">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" type="text/css" href="./css/index1.css">
   <script src="./js/index1.js"></script>
   </head>
   <body>
     <div class="container">
       <div class="row">
-        <div class="col-md-4 col-sm-12 col-lg-4 col-xs-4">
+        <div class="col-md-4 col-sm-4 col-lg-4 col-xs-4">
           <a href="index1.html"><img src="./images/a.jpg" alt="error" width="90px" height="90px"></a>
         </div>
-        <div class="col-md-4 col-sm-12 col-lg-4 col-xs-4">   
+        <div class="col-md-4 col-sm-4 col-lg-4 col-xs-4">   
           <h1 >amazon shopping</h1>
-          </div>
-          <div class="col-md-4 col-sm-12 col-lg-4 col-xs-4">
+        </div>
+        <div class="col-md-4 col-sm-4 col-lg-4 col-xs-4">
             <a href="https://www.facebook.com/" class="fa fa-facebook"></a>
             <a href="https://twitter.com" class="fa fa-twitter"></a>
             <a href="https://google.com" class="fa fa-google"></a>
@@ -56,41 +56,58 @@
                   </div>
                 </div>
               </nav>
+            </div>
               <div class="row home1">
+                
+                
+                <!-- Pagination starts here -->
                 <div id="myCarousel" class="carousel slide" data-ride="carousel">
-                  <ol class="carousel-indicators">
-                    <li   data-target="#myCarousel" data-slide-to="0" class="active"></li>
-                    <li data-target="#myCarousel" data-slide-to="1"></li>
-                    <li data-target="#myCarousel" data-slide-to="2"></li>
-                  </ol>
+
+                  <div class="carousel-indicators">
+                    <!-- Left and right controls -->
+                    <!-- <button id="prev"> -->
+                    <!-- <a class="left carousel-control" href="#myCarousel" data-slide="prev"> -->
+                    <!-- Prev</a> -->
+                    <!-- </button> -->
+                    <button class="left carousel-control" href="#myCarousel" data-slide="prev">prev</button>
+                    <button data-target="#myCarousel" data-slide-to="0" class="active">1</button>
+                    <button data-target="#myCarousel" data-slide-to="1">2</button>
+                    <button data-target="#myCarousel" data-slide-to="2">3</button>
+                    <button class="right carousel-control" href="#myCarousel" data-slide="next">next</button>
+                    <!-- <button> -->
+                    <!-- <a class="right carousel-control" href="#myCarousel" data-slide="next"> -->
+                    <!-- Next</a> -->
+                    <!-- </button> -->
+                    
+                    
+                  </div>
+
+                  <!-- Wrapper for slides -->
 
                   <div class="carousel-inner">
-                    <div class="item active" id="image">
-                      <img class="img-responsive" src="./images/l.jpg" alt="error" width="100%" height="90%" >
+                    <div class="item active">
+                      <img src="./images/l.jpg" alt="error" style="width:100%; height:300px;">
                     </div>
 
-                    <div class="item" id="image1">
-                      <img src="./images/j.jpg" alt="error" width="100%" height="90%" id="image1">
+                    <div class="item">
+                      <img src="./images/j.jpg" alt="error" style="width:100%;height:300px;">
                     </div>
 
-                    <div class="item" id="image2">
-                      <img  class="img-responsive" src="./images/k.jpg" alt="error" width="100%" height="90%" >
+                    <div class="item">
+                      <img src="./images/k.jpg" alt="error" style="width:100%;height:300px;">
                     </div>
-                    <ul class="pagination">
-                      <li><a href="./images/k.jpg">prev</a></li>
-                      <li><a id="im1" href="#">1</a></li>
-                      <li><a id="im2" href="#">2</a></li>
-                      <li><a id="im3" href="#">3</a></li>
-
-                      <li><a href="./images/l.jpg">next</a></li>
-                    </ul>
+                    <button type="button" paceholder="prev">
+                    </button>
                   </div>
+                  
                 </div>
               </div>
+              <!-- Pagination ends here -->
+              
               <div class="col-sm-12">
-              <div class="mobile home1"><h3>mobile phones</h3>
+                <div class="mobile home1"><h3>mobile phones</h3>
 
-              </div>
+                </div>
               </div>
 
               <div class="row home1">
@@ -98,19 +115,19 @@
                 <input type="text" name="search" placeholder="Search..">
               </div>
               <div class="row home1">
-                <div class="col-sm-12 col-lg-4 col-md-4 col-xs-4">
+                <div class="col-sm-4 col-lg-4 col-md-4 col-xs-4">
                   <h3>iphones</h3>
                   <img src="./images/q.jpg" alt="error" width="100%" height="150px">
                   <p>Apple iPhone 7 smartphone. Announced Sep 2016. Features 4.7″ LED-backlit IPS LCD display, Apple A10 Fusion chipset, 12 MP primary camera, 7 MP front camera, 1960 mAh battery, 256 GB storage, 2 GB RAM, IP67 certified, Ion-strengthened glass</p>
                   <button id="info">info</button>
                 </div>
-                <div class="col-sm-12 col-lg-4 col-md-4 col-xs-4">       
+                <div class="col-sm-4 col-lg-4 col-md-4 col-xs-4">       
                   <h3>redme</h3>
                   <img src="./images/r.jpg" alt="error" width="100%" height="150px">
                   <p>Xiaomi Redmi Note 4 Android smartphone. Announced Jan 2017. Features 5.5″ IPS LCD display, Snapdragon 625 chipset, 13 MP primary camera, 5 MP front camera, 4100 mAh battery, 64 GB storage, 4 GB RAM.</p>
                   <button id="info1" >info1</button>
                 </div>
-                <div class="col-sm-12 col-lg-4 col-md-4 col-xs-4">
+                <div class="col-sm-4 col-lg-4 col-md-4 col-xs-4">
                   <h3>samsung</h3>  
                   <img src="./images/u.jpg" alt="error" width="100%" height="150px">      
                   <p>Samsung Galaxy S7 Android smartphone. Announced Feb 2016. Features 5.1″ Super AMOLED Xiaomi Redmi Note 4 Android smartphone. Announced Jan 2017. Features 5.5″ IPS LCD display,  certified, Corning Gorilla Glass 4.</p>
@@ -147,19 +164,19 @@
               in India
             </div>
             <div class="row about1">
-              <div class="col-sm-12 col-lg-4 col-md-4 col-xs-4">
+              <div class="col-sm-4 col-lg-4 col-md-4 col-xs-4">
                 <h3>iphones</h3>
                 <img src="./images/q.jpg" alt="error" width="200px" height="150px">
                 <p>Apple iPhone 7 smartphone. Announced Sep 2016. Features 4.7″ LED-backlit IPS LCD display, Apple A10 Fusion chipset, 12 MP primary camera, 7 MP front camera, 1960 mAh battery, 256 GB storage, 2 GB RAM, IP67 certified, Ion-strengthened glass</p>
 
               </div>
-              <div class="col-sm-12 col-lg-4 col-md-4 col-xs-4">       
+              <div class="col-sm-4 col-lg-4 col-md-4 col-xs-4">       
                 <h3>redme</h3>
                 <img src="./images/r.jpg" alt="error" width="200px" height="150px">
                 <p>Xiaomi Redmi Note 4 Android smartphone. Announced Jan 2017. Features 5.5″ IPS LCD display, Snapdragon 625 chipset, 13 MP primary camera, 5 MP front camera, 4100 mAh battery, 64 GB storage, 4 GB RAM.</p>
 
               </div>
-              <div class="col-sm-12 col-lg-4 col-md-4 col-xs-4">
+              <div class="col-sm-4 col-lg-4 col-md-4 col-xs-4">
                 <h3>samsung</h3>  
                 <img src="./images/u.jpg" alt="error" width="200px" height="150px">      
                 <p>Samsung Galaxy S7 Android smartphone. Announced Feb 2016. Features 5.1″ Super AMOLED Xiaomi Redmi Note 4 Android smartphone. Announced Jan 2017. Features 5.5″ IPS LCD display,  certified, Corning Gorilla Glass 4.</p>
