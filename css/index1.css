@@ -52,6 +52,9 @@ input[type=text]:focus {
     margin-left:0px;
     text-align: center; 
 }
+#prev{
+  
+}
 /*@media only screen and (min-width : 320px) and {
 //         .cs{color:blue;
 //            font-size:20px;}
@@ -156,9 +159,10 @@ input[type=text]:focus {
 /*}*/
 
 /* iPhone 5 (portrait) ----------- */
-/*@media only screen and (min-device-width: 320px) and (max-device-height: 568px) and (orientation: portrait) and (-webkit-device-pixel-ratio: 2) {*/
-  /* Styles */
-/*}*/
+@media only screen and (min-device-width: 320px) and (max-device-height: 568px) and (orientation: portrait) and (-webkit-device-pixel-ratio: 2) {
+  .cs{
+    font-size:15px; 
+}
 
 /* iPhone 6 (landscape) ----------- */
 /*@media only screen and (min-device-width: 375px) and (max-device-height: 667px) and (orientation: landscape) and (-webkit-device-pixel-ratio: 2) {*/
@@ -223,4 +227,7 @@ input[type=text]:focus {
    text-align: center;
    border-style:solid double;
     
+}
+#btn{
+    margin-left:400px;
 }
