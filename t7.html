@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+ <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+ <script>
+ $(document).ready(function() {
+          
+         
+             $('#sub').click(function () { 
+                // $('input[type=checkbox]').click();
+                debugger
+                $('input[type=checkbox]').each(function(){
+                	debugger
+                	this.checked = !this.checked ;
+                })
+              });  
+              
+             
+        });
+ </script>
+  </head>
+<body>
+<input type="checkbox" class="num1" value="30">$30<br>
+<input type="checkbox" class="num1" value="40">$40
+<input type="checkbox" class="num1" value="50">$50<br>
+<input type="checkbox" class="num1" value="70">$70
+<input type="checkbox" class="num1" value="80">$80<br>
+<button type="button" id="sub">selectall</button>
+</body>
+</html>
